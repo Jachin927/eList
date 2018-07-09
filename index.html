@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="font/iconfont.css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="header">
+			<h1>享听</h1>
+		</div>
+		<div class="menu">
+			<span class="menu_underline"></span>
+			<ul>
+				<li>我喜欢听</li>
+				<li>搜索</li>
+			</ul>
+		</div>
+		<ul id="module_ul">
+			<li class="module module_a">
+				<div class="banner"><img src="img/content_bg.jpg"></div>
+				<ul class="module_a_ul">
+					<!-- <span>暂无喜爱歌曲<br>请搜索或添加</span> -->
+					<!-- <li><h6>消愁</h6><p>毛不易-明日之子 第七期</p><i class="iconfont icon-del"></i></li> -->
+					<!-- <li><h6>想我这样的人</h6><p>毛不易-明日之子 第八期</p><i class="iconfont icon-del"></i></li> -->
+				</ul>
+			</li>
+			<li class="module module_b">
+				<div class="input_box">
+					<input type="text" placeholder="搜索歌曲、歌单、专辑" id="search_input">
+					<span id="input_btn">搜索</span>
+				</div>
+				<ul id="search_content">
+					<!-- <li><h6>消愁</h6><p>毛不易-明日之子 第七期</p><i class="iconfont icon-like"></i></li>> -->
+				</ul>
+				<span id="next_page">请搜索歌曲</span>
+			</li>
+		</ul>
+		<div class="footer">
+			<audio id="audio" autoplay="autoplay" ></audio>
+			<ul class="footer_ul">
+				<li>
+					<div class="li_box">
+						<img src="img/footer_bg.jpg" alt="图片加载失败">
+					</div>
+					<div class="li_text">
+						<h6>暂无播放歌曲</h6>
+						<p></p>
+					</div>
+				</li>
+				<li><span class="iconfont icon-iconfonticoncopy" id="last_btn"></span></li>
+				<li><span class="iconfont icon-start" id="play_btn"></span></li>
+				<li><span class="iconfont icon-icon1" id="next_btn"></span></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
+<script src="jquery/jquery.min.js"></script>
+<script src="jquery/javascript.js"></script>
+<script type="text/javascript">
+/*	//自适应移动端
+	document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+	$(window).on('resize' , function(){
+		document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+	});
+
+	$(function(){
+		//menu_jquery
+		$('.menu ul li').on('click', function() {
+			var bg_num=$(this).index();
+			$('.menu_underline').animate({left:$('.menu_underline').width()*bg_num+"px"},'fast')
+			$(this).css('color','#f79e46').siblings().css('color','#b3b3b9')
+
+		});
+	})*/
+
+</script>
